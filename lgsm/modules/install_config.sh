@@ -23,11 +23,11 @@ fn_fetch_default_config() {
 	fn_messages_separator
 	echo -e "Downloading default configs from:"
 	echo -e ""
-	echo -e "${italic}https://github.com/GameServerManagers/Game-Server-Configs${default}"
+	echo -e "${italic}https://github.com/Demonslyr/Game-Server-Configs${default}"
 	echo -e ""
 	fn_sleep_time_1
 	mkdir -p "${lgsmdir}/config-default/config-game"
-	githuburl="https://raw.githubusercontent.com/GameServerManagers/Game-Server-Configs/main"
+	githuburl="https://raw.githubusercontent.com/Demonslyr/Game-Server-Configs/main"
 	for config in "${array_configs[@]}"; do
 		fn_fetch_file "${githuburl}/${shortname}/${config}" "${remote_fileurl_backup}" "GitHub" "Bitbucket" "${lgsmdir}/config-default/config-game" "${config}" "nochmodx" "norun" "forcedl" "nohash"
 	done
