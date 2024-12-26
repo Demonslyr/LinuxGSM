@@ -485,7 +485,7 @@ fn_fetch_file_github() {
 	github_file_url_dir="${1}"
 	github_file_url_name="${2}"
 	# If master branch will currently running LinuxGSM version to prevent "version mixing". This is ignored if a fork.
-	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "GameServerManagers" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
+	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "Demonslyr" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
 		remote_fileurl="https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${version}/${github_file_url_dir}/${github_file_url_name}"
 		remote_fileurl_backup="https://bitbucket.org/${githubuser}/${githubrepo}/raw/${version}/${github_file_url_dir}/${github_file_url_name}"
 	else
@@ -507,7 +507,7 @@ fn_fetch_file_github() {
 fn_check_file_github() {
 	github_file_url_dir="${1}"
 	github_file_url_name="${2}"
-	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "GameServerManagers" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
+	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "Demonslyr" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
 		remote_fileurl="https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${version}/${github_file_url_dir}/${github_file_url_name}"
 		remote_fileurl_backup="https://bitbucket.org/${githubuser}/${githubrepo}/raw/${version}/${github_file_url_dir}/${github_file_url_name}"
 	else
@@ -524,7 +524,7 @@ fn_fetch_config() {
 	github_file_url_dir="${1}"
 	github_file_url_name="${2}"
 	# If master branch will currently running LinuxGSM version to prevent "version mixing". This is ignored if a fork.
-	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "GameServerManagers" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
+	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "Demonslyr" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
 		remote_fileurl="https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${version}/${github_file_url_dir}/${github_file_url_name}"
 		remote_fileurl_backup="https://bitbucket.org/${githubuser}/${githubrepo}/raw/${version}/${github_file_url_dir}/${github_file_url_name}"
 	else
@@ -548,7 +548,7 @@ fn_fetch_module() {
 	github_file_url_dir="lgsm/modules"
 	github_file_url_name="${modulefile}"
 	# If master branch will currently running LinuxGSM version to prevent "version mixing". This is ignored if a fork.
-	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "GameServerManagers" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
+	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "Demonslyr" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
 		remote_fileurl="https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${version}/${github_file_url_dir}/${github_file_url_name}"
 		remote_fileurl_backup="https://bitbucket.org/${githubuser}/${githubrepo}/raw/${version}/${github_file_url_dir}/${github_file_url_name}"
 	else
@@ -572,7 +572,7 @@ fn_update_module() {
 	github_file_url_dir="lgsm/modules"
 	github_file_url_name="${modulefile}"
 	# If master branch will currently running LinuxGSM version to prevent "version mixing". This is ignored if a fork.
-	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "GameServerManagers" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
+	if [ "${githubbranch}" == "master" ] && [ "${githubuser}" == "Demonslyr" ] && [ "${commandname}" != "UPDATE-LGSM" ]; then
 		remote_fileurl="https://raw.githubusercontent.com/${githubuser}/${githubrepo}/${version}/${github_file_url_dir}/${github_file_url_name}"
 		remote_fileurl_backup="https://bitbucket.org/${githubuser}/${githubrepo}/raw/${version}/${github_file_url_dir}/${github_file_url_name}"
 	else

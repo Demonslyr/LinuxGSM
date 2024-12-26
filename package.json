@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GameServerManagers/LinuxGSM.git"
+    "url": "git+https://github.com/Demonslyr/LinuxGSM.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GameServerManagers/LinuxGSM/issues"
+    "url": "https://github.com/Demonslyr/LinuxGSM/issues"
   },
-  "homepage": "https://github.com/GameServerManagers/LinuxGSM#readme",
+  "homepage": "https://github.com/Demonslyr/LinuxGSM#readme",
   "dependencies": {
     "gamedig": "^5.1.1"
   }
